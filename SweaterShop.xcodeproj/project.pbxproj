@@ -11,6 +11,14 @@
 		3D5FD06B2A6DF07D0077FFA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FD06A2A6DF07D0077FFA1 /* ContentView.swift */; };
 		3D5FD06D2A6DF07F0077FFA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FD06C2A6DF07F0077FFA1 /* Assets.xcassets */; };
 		3D5FD0702A6DF07F0077FFA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D5FD06F2A6DF07F0077FFA1 /* Preview Assets.xcassets */; };
+		3D5FD0782A6DF9A20077FFA1 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FD0772A6DF9A20077FFA1 /* Product.swift */; };
+		3D5FD07B2A6DFA1B0077FFA1 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FD07A2A6DFA1B0077FFA1 /* ProductCard.swift */; };
+		3D5FD07D2A6DFBF00077FFA1 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FD07C2A6DFBF00077FFA1 /* CartManager.swift */; };
+		3D5FD07F2A6DFC4E0077FFA1 /* PaymentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FD07E2A6DFC4E0077FFA1 /* PaymentHandler.swift */; };
+		3D5FD0812A6DFE680077FFA1 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FD0802A6DFE680077FFA1 /* CartButton.swift */; };
+		3D5FD0842A6DFEB40077FFA1 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FD0832A6DFEB40077FFA1 /* CartView.swift */; };
+		3D5FD0862A6DFF300077FFA1 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FD0852A6DFF300077FFA1 /* ProductRow.swift */; };
+		3D5FD0882A6DFF810077FFA1 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5FD0872A6DFF810077FFA1 /* PaymentButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		3D5FD06A2A6DF07D0077FFA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3D5FD06C2A6DF07F0077FFA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D5FD06F2A6DF07F0077FFA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D5FD0772A6DF9A20077FFA1 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		3D5FD07A2A6DFA1B0077FFA1 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		3D5FD07C2A6DFBF00077FFA1 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		3D5FD07E2A6DFC4E0077FFA1 /* PaymentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentHandler.swift; sourceTree = "<group>"; };
+		3D5FD0802A6DFE680077FFA1 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		3D5FD0832A6DFEB40077FFA1 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		3D5FD0852A6DFF300077FFA1 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		3D5FD0872A6DFF810077FFA1 /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +67,14 @@
 		3D5FD0672A6DF07D0077FFA1 /* SweaterShop */ = {
 			isa = PBXGroup;
 			children = (
+				3D5FD0822A6DFE9D0077FFA1 /* Views */,
 				3D5FD0682A6DF07D0077FFA1 /* SweaterShopApp.swift */,
-				3D5FD06A2A6DF07D0077FFA1 /* ContentView.swift */,
+				3D5FD0792A6DF9F60077FFA1 /* Components */,
+				3D5FD0762A6DF8B60077FFA1 /* Models */,
 				3D5FD06C2A6DF07F0077FFA1 /* Assets.xcassets */,
 				3D5FD06E2A6DF07F0077FFA1 /* Preview Content */,
+				3D5FD07C2A6DFBF00077FFA1 /* CartManager.swift */,
+				3D5FD07E2A6DFC4E0077FFA1 /* PaymentHandler.swift */,
 			);
 			path = SweaterShop;
 			sourceTree = "<group>";
@@ -65,6 +85,34 @@
 				3D5FD06F2A6DF07F0077FFA1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D5FD0762A6DF8B60077FFA1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D5FD0772A6DF9A20077FFA1 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D5FD0792A6DF9F60077FFA1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3D5FD07A2A6DFA1B0077FFA1 /* ProductCard.swift */,
+				3D5FD0802A6DFE680077FFA1 /* CartButton.swift */,
+				3D5FD0852A6DFF300077FFA1 /* ProductRow.swift */,
+				3D5FD0872A6DFF810077FFA1 /* PaymentButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3D5FD0822A6DFE9D0077FFA1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D5FD06A2A6DF07D0077FFA1 /* ContentView.swift */,
+				3D5FD0832A6DFEB40077FFA1 /* CartView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +185,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D5FD07D2A6DFBF00077FFA1 /* CartManager.swift in Sources */,
+				3D5FD07F2A6DFC4E0077FFA1 /* PaymentHandler.swift in Sources */,
 				3D5FD06B2A6DF07D0077FFA1 /* ContentView.swift in Sources */,
 				3D5FD0692A6DF07D0077FFA1 /* SweaterShopApp.swift in Sources */,
+				3D5FD0882A6DFF810077FFA1 /* PaymentButton.swift in Sources */,
+				3D5FD0782A6DF9A20077FFA1 /* Product.swift in Sources */,
+				3D5FD0812A6DFE680077FFA1 /* CartButton.swift in Sources */,
+				3D5FD0842A6DFEB40077FFA1 /* CartView.swift in Sources */,
+				3D5FD07B2A6DFA1B0077FFA1 /* ProductCard.swift in Sources */,
+				3D5FD0862A6DFF300077FFA1 /* ProductRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
